@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/index.html</welcome-file>
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <description>Admin header footer display</description>
+            <url-pattern>/WEB-INF/admin/*</url-pattern>
+            <include-prelude>/WEB-INF/admin/jspf/Head.jspf</include-prelude>
+            <include-coda>/WEB-INF/admin/jspf/Foot.jspf</include-coda>
+        </jsp-property-group>
+        
+        <jsp-property-group>
+            <description>3A GRoups header footer display</description>
+            <url-pattern>/WEB-INF/Groupe3A/*</url-pattern>
+            <include-prelude>/WEB-INF/Groupe3A/jspf/Head.jspf</include-prelude>
+            <include-coda>/WEB-INF/Groupe3A/jspf/Foot.jspf</include-coda>
+        </jsp-property-group>
+        
+        <jsp-property-group>
+            <description>3A Services header footer display</description>
+            <url-pattern>/WEB-INF/Service/*</url-pattern>
+            <include-prelude>/WEB-INF/Service/jspf/Head.jspf</include-prelude>
+            <include-coda>/WEB-INF/Service/jspf/Foot.jspf</include-coda>
+        </jsp-property-group>
+        
+        <jsp-property-group>
+            <description>3A Batiment header footer display</description>
+            <url-pattern>/WEB-INF/Batiment/*</url-pattern>
+            <include-prelude>/WEB-INF/Batiment/jspf/Head.jspf</include-prelude>
+            <include-coda>/WEB-INF/Batiment/jspf/Foot.jspf</include-coda>
+        </jsp-property-group>
+        
+        <jsp-property-group>
+            <description>3A Promotion header footer display</description>
+            <url-pattern>/WEB-INF/Promotion/*</url-pattern>
+            <include-prelude>/WEB-INF/Promotion/jspf/Head.jspf</include-prelude>
+            <include-coda>/WEB-INF/Promotion/jspf/Foot.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
