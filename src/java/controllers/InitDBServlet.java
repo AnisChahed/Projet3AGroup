@@ -63,8 +63,8 @@ public class InitDBServlet extends HttpServlet {
         
         articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "", "","","Images/2.jpg", Entreprise.Service));
         articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "CTF Expo", "","","Images/KoujinaExpo.jpg", Entreprise.Service));
-        articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "", "","","Images/IndEcran.jpg", Entreprise.Service));
-        articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "Ecrans pas de 10cm", "","Pour une visibilité allant au kilométre","Images/Pas10.jpg", Entreprise.Service));
+        articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "", "","","Images/IndEcran.jpeg", Entreprise.Service));
+        articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "Ecrans pas de 10cm", "","Pour une visibilité allant au kilométre","Images/Pas10.jpeg", Entreprise.Service));
 //        articleFacade.create(new Article(panels.get(0), new Date(new Date().getTime() - 60 * 60 * 24 * 1000), "CTF", "Lorem ipsum dolor sit amet,"
 //                + " consectetur adipisicing elit. Reiciendis ipsam eos,"
 //                + " nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur,"
